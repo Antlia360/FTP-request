@@ -2,11 +2,11 @@
 
 This project involves implementing a File Transfer Protocol (FTP) server and client in the C programming language using Transmission Control Protocol (TCP). The FTP system supports basic file transfer operations, including put, get, close, cd (change directory), and ls (list directory contents) from the client to the server.
 
-- 1. put <file_name>: Upload a file from the client to the server in the current directory.
-- 2. get <file_name>: Download a file from the server to the client in the current directory.
-- 3. close: Close the connection with the client.
-- 4. cd <directory_name>: Change the current directory on the server.
-- 5. ls: List all the contents of the current directory on the server available to the client.
+-  put <file_name>: Upload a file from the client to the server in the current directory.
+-  get <file_name>: Download a file from the server to the client in the current directory.
+-  close: Close the connection with the client.
+-  cd <directory_name>: Change the current directory on the server.
+-  ls: List all the contents of the current directory on the server available to the client.
 
 ## Usage:
 1. Compile the server and client programs separately.
