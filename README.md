@@ -14,12 +14,12 @@ This project involves implementing a File Transfer Protocol (FTP) server and cli
 3. Run the client program on another host machine and provide the server's IP address and port.
 4. Use the client command-line interface to interact with the FTP server by entering commands.
 
-for server-
-  Compile : gcc server.c -o server -lpthread
-  run : ./server
+for server-\
+  Compile : gcc server.c -o server -lpthread\
+  run : ./server\
 
-for client side-
-  Compile : gcc client.c -o client
+for client side-\
+  Compile : gcc client.c -o client\
   run : ./client <IP ADDRESS> <PORT>
 
 ## Example Commands:
